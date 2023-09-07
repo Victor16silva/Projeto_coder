@@ -1,0 +1,74 @@
+
+/* Estilo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando o rodapé com grid */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilizando os links do rodapé */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilizando os elementos dentro do grid do rodapé */
+.logo {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.rectangle-77 {
+  background-color: red;
+  height: 40px;
+  grid-column: span 2;
+}
+
+.tv-pokemon,
+.pok-dex,
+.tipos,
+.sobre,
+.e-mail,
+.sobre-n-s,
+.contato,
+.equipe,
+.suporte,
+.faq,
+.inicio,
+.pokeball,
+.informa-es,
+.politica-de-privacidade,
+.termos-e-condi-es {
+  text-align: center;
+}
+
+/* Estilizando o conteúdo da seção Sobre-nós */
+.sobre-n-s {
+  grid-column: span 4;
+}
+
+/* Estilizando o conteúdo da seção Equipe */
+.suporte {
+  grid-column: span 2;
+}
+
+/* Estilizando o conteúdo da seção Informações */
+.informa-es {
+  grid-column: span 2;
+}
